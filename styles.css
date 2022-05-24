@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  /* Navbar */
+  a.nav-link, a.navbar-brand{
+    color: #D935ff;
+  }
+  a.navbar-brand{
+    font-size: 1.5em;
+  }
+  a.nav-link:hover{
+    color: #fff;
+  }
+  a.navbar-brand:hover{
+    color: #D935ff;
+  }
+  /* Introduction */
+  main{
+    color: #ffffff;
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, transparent, #000), url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 230px 260px 230px;
+  }
+  main h1{
+    background-color: transparent;
+    text-shadow: 0px 0px 15px #000000;
+  }
+  main p{
+    background-color: transparent;
+    text-shadow: 0px 0px 20px #000000;
+  }
+  /* Projects */
+  img{
+    height: 220px;
+    width: auto;
+  }
+  p.card-text{
+    color: aquamarine;
+  }
+  p.project{
+    color: #ff3dd5;
+  }
+  .heading h1{
+    color: #D935ff;
+    padding: 20px;
+    border-bottom: 2px solid #D935ff;
+  }
+  a.project-link{
+    text-decoration: none;
+    color: #ff3dd5;
+  }
+  a.project-link:visited{
+    color: #ff3dd5;
+    text-decoration: none;
+  }
+  a.project-link:hover{
+    color: aquamarine;
+  }
+  /* Skills */
+  .skills img{
+    height: 150px;
+    width: 150px;
+  }
+  h2.fw-normal{
+    color: rgba(205, 255, 238, 0.5);
+    font-size: 1.5em;
+  }
+  /* Contact Me */
+  .contact{
+    color: #D935ff;
+  }
+  a.email{
+    color: #D935ff;
+    text-decoration: none;
+  }
+  a.email:hover{
+    color: #fff;
+  }
+  /* Footer */
+  
+  i {
+    color: rgba(255, 255, 255, 0.568);
+    padding: 5px;
+  }
+  footer p{
+    padding-top: 15px;
+  }
